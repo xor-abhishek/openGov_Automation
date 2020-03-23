@@ -1,0 +1,28 @@
+18:28:53.855 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+18:28:53.925 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2020-03-23 18:28:53.972:INFO::main: Logging initialized @344ms to org.seleniumhq.jetty9.util.log.StdErrLog
+18:28:54.191 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+18:28:54.385 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+18:28:54.956 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "browserName": "chrome",
+  "goog:chromeOptions": {
+    "w3c": false,
+    "args": [
+      "--headless"
+    ]
+  }
+}
+18:28:54.956 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 21541
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1584968339.002][WARNING]: Timed out connecting to Chrome, retrying...
+18:29:01.143 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+18:29:01.842 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session f1bc9776211eb62836fbec01a827fb96 (org.openqa.selenium.chrome.ChromeDriverService)
+[1584968367.667][WARNING]: Timed out connecting to Chrome, retrying...
+[1584968383.335][WARNING]: Timed out connecting to Chrome, retrying...
+[1584968430.349][WARNING]: Timed out connecting to Chrome, retrying...
+[1584968448.802][SEVERE]: Unable to receive message from renderer
+[1584968471.018][WARNING]: Timed out connecting to Chrome, retrying...
+[1584968486.992][WARNING]: Timed out connecting to Chrome, retrying...
+18:31:41.188 INFO [ActiveSessions$1.onStop] - Removing session f1bc9776211eb62836fbec01a827fb96 (org.openqa.selenium.chrome.ChromeDriverService)

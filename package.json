@@ -1,0 +1,36 @@
+{
+  "name": "projectopengovautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "cross-env NIGHTWATCH_ENV=chrome npm test",
+    "test:chromeHeadless": "cross-env NIGHTWATCH_ENV=chromeHeadless npm test",
+    "test:firefox": "cross-env NIGHTWATCH_ENV=firefox npm test",
+    "test:edge": "cross-env NIGHTWATCH_ENV=edge npm test",
+    "test:ie": "cross-env NIGHTWATCH_ENV=ie npm test",
+    "test": "mkdirp report && cucumber-js --require-module @babel/register --require cucumber.conf.js --require step-definitions --format node_modules/cucumber-pretty --format json:report/cucumber_report.json"
+  },
+  "author": "abhishek kumar",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "@babel/register": "^7.8.6",
+    "chromedriver": "^74.0.0",
+    "cross-env": "^7.0.0",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.1.0",
+    "cucumber-pretty": "^6.0.0",
+    "edgedriver": "^4.17134.1",
+    "geckodriver": "^1.19.1",
+    "iedriver": "^3.14.1",
+    "mkdirp": "^1.0.3",
+    "nightwatch": "^1.3.4",
+    "nightwatch-api": "latest",
+    "selenium-server": "^3.141.59",
+    "selenium-server-standalone": "^2.53.1",
+    "selenium-server-standalone-jar": "^3.141.59"
+  }
+}
